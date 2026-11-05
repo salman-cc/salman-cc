@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="312" viewBox="0 0 880 312" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Muhammed Salman CC - Embedded Systems, FPGA Hardware Design, Robotics and IoT</title>
+  <desc id="heroDesc">Dark engineering hero banner for Muhammed Salman CC, M.Sc. Electronics student at Cochin University of Science and Technology (CUSAT), featuring an embedded hardware-firmware architecture schematic.</desc>
+
+  <defs>
+    <linearGradient id="canvasBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080A0F"/>
+      <stop offset="55%" stop-color="#0B0E15"/>
+      <stop offset="100%" stop-color="#0E121B"/>
+    </linearGradient>
+
+    <radialGradient id="orangeGlowLeft" cx="0.08" cy="0.12" r="0.58">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.14"/>
+      <stop offset="55%" stop-color="#FF6B35" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="orangeGlowRight" cx="0.84" cy="0.52" r="0.45">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.11"/>
+      <stop offset="65%" stop-color="#FF6B35" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="topHighlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#FF6B35" stop-opacity="0.65"/>
+      <stop offset="55%" stop-color="#2A3244" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="accentRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="22%" stop-color="#FF8859"/>
+      <stop offset="22.1%" stop-color="#222938"/>
+      <stop offset="100%" stop-color="#222938" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1B2130" stroke-width="0.75" stroke-opacity="0.55"/>
+    </pattern>
+
+    <clipPath id="cardClip">
+      <rect x="0.5" y="0.5" width="879" height="311" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Base surfaces -->
+    <rect width="880" height="312" fill="url(#canvasBg)"/>
+    <rect width="880" height="312" fill="url(#microGrid)"/>
+    <rect width="880" height="312" fill="url(#orangeGlowLeft)"/>
+    <rect width="880" height="312" fill="url(#orangeGlowRight)"/>
+
+    <!-- Subtle top specular edge -->
+    <rect x="24" y="0.5" width="832" height="1.5" fill="url(#topHighlight)"/>
+
+    <!-- Left Column: Identity & Engineering Positioning -->
+    <g>
+      <!-- Status / Eyebrow Pill -->
+      <rect x="38" y="34" width="276" height="24" rx="12" fill="#111621" stroke="#242C3D" stroke-width="1"/>
+      <circle cx="52" cy="46" r="3.5" fill="#FF6B35"/>
+      <circle cx="52" cy="46" r="6.5" fill="#FF6B35" fill-opacity="0.22"/>
+      <text x="65" y="50" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#CBD5E1">SALMAN-CC · CUSAT · KERALA, IN</text>
+
+      <!-- Name -->
+      <text x="38" y="106" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'DejaVu Sans', sans-serif" font-size="36" font-weight="700" letter-spacing="-0.5" fill="#F8FAFC">Muhammed Salman CC</text>
+
+      <!-- Precision Accent Rule -->
+      <rect x="38" y="122" width="460" height="2.5" rx="1.25" fill="url(#accentRule)"/>
+
+      <!-- Primary Engineering Headline -->
+      <text x="38" y="152" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'DejaVu Sans', sans-serif" font-size="14" font-weight="600" fill="#E2E8F0">Embedded Systems · FPGA &amp; Hardware Design · Robotics &amp; IoT</text>
+
+      <!-- Academic Position -->
+      <text x="38" y="178" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'DejaVu Sans', sans-serif" font-size="12.5" fill="#94A3B8">M.Sc. Electronics · Cochin University of Science and Technology (CUSAT)</text>
+      <text x="38" y="198" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'DejaVu Sans', sans-serif" font-size="12" fill="#6E7B91">Deterministic MCU firmware, digital hardware design, and Embedded Linux.</text>
+
+      <!-- Domain Capability Chips -->
+      <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="10.5">
+        <!-- Chip 1 -->
+        <rect x="38" y="244" width="114" height="28" rx="6" fill="#10141E" stroke="#232B3B" stroke-width="1"/>
+        <text x="48" y="262" fill="#FF6B35" font-weight="700">01</text>
+        <text x="67" y="262" fill="#D1D9E6">STM32/RTOS</text>
+
+        <!-- Chip 2 -->
+        <rect x="160" y="244" width="120" height="28" rx="6" fill="#10141E" stroke="#232B3B" stroke-width="1"/>
+        <text x="170" y="262" fill="#FF6B35" font-weight="700">02</text>
+        <text x="189" y="262" fill="#D1D9E6">FPGA/RTL</text>
+
+        <!-- Chip 3 -->
+        <rect x="288" y="244" width="116" height="28" rx="6" fill="#10141E" stroke="#232B3B" stroke-width="1"/>
+        <text x="298" y="262" fill="#FF6B35" font-weight="700">03</text>
+        <text x="317" y="262" fill="#D1D9E6">EMB LINUX</text>
+
+        <!-- Chip 4 -->
+        <rect x="412" y="244" width="118" height="28" rx="6" fill="#10141E" stroke="#232B3B" stroke-width="1"/>
+        <text x="422" y="262" fill="#FF6B35" font-weight="700">04</text>
+        <text x="441" y="262" fill="#D1D9E6">VISION/IOT</text>
+      </g>
+    </g>
+
+    <!-- Right Column: Hardware-Firmware Node Schematic Panel -->
+    <g>
+      <rect x="558" y="28" width="290" height="256" rx="10" fill="#0B0F17" fill-opacity="0.92" stroke="#1F2737" stroke-width="1"/>
+      <!-- Panel Top Header -->
+      <line x1="558" y1="56" x2="848" y2="56" stroke="#1B2230" stroke-width="1"/>
+      <circle cx="574" cy="42" r="3" fill="#FF6B35"/>
+      <text x="585" y="45.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="9.5" letter-spacing="0.9" fill="#94A3B8">ARCH // HW-SW NODE</text>
+      <text x="772" y="45.5" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="9.5" fill="#64748B">3V3 · 50MHz</text>
+
+      <!-- Routed PCB Copper & Signal Traces -->
+      <!-- Bus to ETH/RMII (Top Right) -->
+      <path d="M 684 128 L 704 128 L 720 96 L 736 96" fill="none" stroke="#FF6B35" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 684 138 L 708 138 L 724 106 L 736 106" fill="none" stroke="#334155" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Bus to CSI/V4L2 (Mid Right) -->
+      <path d="M 684 156 L 736 156" fill="none" stroke="#FF6B35" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 684 166 L 736 166" fill="none" stroke="#334155" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- Bus to I2C/SPI/ADC (Bottom Right) -->
+      <path d="M 684 184 L 704 184 L 720 216 L 736 216" fill="none" stroke="#FF6B35" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 684 194 L 708 194 L 724 226 L 736 226" fill="none" stroke="#334155" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Left Input Clock / JTAG traces into IC -->
+      <path d="M 572 142 L 592 142" fill="none" stroke="#FF6B35" stroke-width="1.4"/>
+      <path d="M 572 162 L 592 162" fill="none" stroke="#334155" stroke-width="1.2"/>
+      <path d="M 572 182 L 592 182" fill="none" stroke="#334155" stroke-width="1.2"/>
+
+      <!-- Via Nodes -->
+      <circle cx="704" cy="128" r="2.3" fill="#0B0F17" stroke="#FF6B35" stroke-width="1.2"/>
+      <circle cx="710" cy="156" r="2.3" fill="#0B0F17" stroke="#FF6B35" stroke-width="1.2"/>
+      <circle cx="704" cy="184" r="2.3" fill="#0B0F17" stroke="#FF6B35" stroke-width="1.2"/>
+
+      <!-- Central SoC / MCU / FPGA Package -->
+      <g>
+        <!-- Top & Bottom Gull-wing Pins -->
+        <g fill="#475569">
+          <rect x="608" y="106" width="5" height="8" rx="1"/>
+          <rect x="621" y="106" width="5" height="8" rx="1"/>
+          <rect x="634" y="106" width="5" height="8" rx="1"/>
+          <rect x="647" y="106" width="5" height="8" rx="1"/>
+          <rect x="660" y="106" width="5" height="8" rx="1"/>
+
+          <rect x="608" y="210" width="5" height="8" rx="1"/>
+          <rect x="621" y="210" width="5" height="8" rx="1"/>
+          <rect x="634" y="210" width="5" height="8" rx="1"/>
+          <rect x="647" y="210" width="5" height="8" rx="1"/>
+          <rect x="660" y="210" width="5" height="8" rx="1"/>
+        </g>
+        <!-- Left & Right Gull-wing Pins -->
+        <g fill="#FF6B35" fill-opacity="0.85">
+          <rect x="588" y="139" width="7" height="5" rx="1"/>
+          <rect x="679" y="125" width="7" height="5" rx="1"/>
+          <rect x="679" y="153" width="7" height="5" rx="1"/>
+          <rect x="679" y="181" width="7" height="5" rx="1"/>
+        </g>
+        <g fill="#475569">
+          <rect x="588" y="159" width="7" height="5" rx="1"/>
+          <rect x="588" y="179" width="7" height="5" rx="1"/>
+          <rect x="679" y="135" width="7" height="5" rx="1"/>
+          <rect x="679" y="163" width="7" height="5" rx="1"/>
+          <rect x="679" y="191" width="7" height="5" rx="1"/>
+        </g>
+
+        <!-- IC Package Body -->
+        <rect x="595" y="114" width="84" height="96" rx="7" fill="#111723" stroke="#FF6B35" stroke-width="1.4"/>
+        <rect x="603" y="122" width="68" height="80" rx="4" fill="#0C1019" stroke="#263044" stroke-width="1"/>
+        <!-- Pin 1 Dot -->
+        <circle cx="611" cy="130" r="2.5" fill="#FF6B35"/>
+        <!-- Die Label -->
+        <text x="637" y="153" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="9.5" font-weight="700" fill="#F8FAFC">CORTEX-M7</text>
+        <text x="637" y="167" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="8.5" fill="#FF6B35">FPGA · RTL</text>
+        <line x1="611" y1="176" x2="663" y2="176" stroke="#1F283A" stroke-width="1"/>
+        <text x="637" y="190" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="8" fill="#64748B">DMA · ISR</text>
+      </g>
+
+      <!-- Peripheral Sub-Blocks (Right) -->
+      <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace">
+        <!-- Module 1: ETH / RMII -->
+        <rect x="736" y="78" width="98" height="42" rx="6" fill="#111622" stroke="#252E42" stroke-width="1"/>
+        <rect x="736" y="78" width="3" height="42" rx="1.5" fill="#FF6B35"/>
+        <text x="746" y="96" font-size="9.5" font-weight="700" fill="#E2E8F0">ETH / RMII</text>
+        <text x="746" y="110" font-size="8.2" fill="#8B98AE">LwIP · NetX</text>
+
+        <!-- Module 2: CSI / V4L2 -->
+        <rect x="736" y="140" width="98" height="42" rx="6" fill="#111622" stroke="#252E42" stroke-width="1"/>
+        <rect x="736" y="140" width="3" height="42" rx="1.5" fill="#FF6B35"/>
+        <text x="746" y="158" font-size="9.5" font-weight="700" fill="#E2E8F0">V4L2 / CSI</text>
+        <text x="746" y="172" font-size="8.2" fill="#8B98AE">H.264 · WebRTC</text>
+
+        <!-- Module 3: SENSORS / BUS -->
+        <rect x="736" y="202" width="98" height="42" rx="6" fill="#111622" stroke="#252E42" stroke-width="1"/>
+        <rect x="736" y="202" width="3" height="42" rx="1.5" fill="#FF6B35"/>
+        <text x="746" y="220" font-size="9.5" font-weight="700" fill="#E2E8F0">I2C · SPI · IO</text>
+        <text x="746" y="234" font-size="8.2" fill="#8B98AE">Sensors · PWM</text>
+      </g>
+
+      <!-- Bottom Telemetry Bar inside Schematic -->
+      <text x="703" y="271" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="8.2" fill="#64748B">50MHz RMII · THREADX · ARMv7E-M / LINUX</text>
+    </g>
+  </g>
+
+  <!-- Crisp Outer Hairline Border -->
+  <rect x="0.5" y="0.5" width="879" height="311" rx="12" fill="none" stroke="#222938" stroke-width="1"/>
+</svg>

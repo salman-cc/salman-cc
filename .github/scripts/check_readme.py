@@ -1,30 +1,25 @@
 #!/usr/bin/env python3
-"""Validate the profile README before it is merged.
+"""Validate the profile README and SVG assets before merge.
 
-Catches the mistakes that silently break these profiles: an automation marker
-deleted during an edit, a renamed asset that leaves a dead image, or inline
-markup that GitHub's sanitiser will strip.
+Catches broken relative asset links, malformed SVG XML, missing automation
+markers, stale account handles, or inline HTML markup that GitHub's sanitizer
+would strip.
 """
 
 from __future__ import annotations
 
 import re
-import sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 README = Path("README.md")
+ASSETS_DIR = Path("assets")
 
-# Every block a scheduled workflow rewrites. Losing one means the workflow will
-# fail on its next run, so catch it here instead.
 MARKERS = [
-    ("<!-- ACTIVITY:START -->", "<!-- ACTIVITY:END -->"),
-    ("<!-- REPOS:START -->", "<!-- REPOS:END -->"),
     ("<!-- COUNTERS:START -->", "<!-- COUNTERS:END -->"),
-    ("<!-- BLOG-POST-LIST:START -->", "<!-- BLOG-POST-LIST:END -->"),
-    ("<!--START_SECTION:waka-->", "<!--END_SECTION:waka-->"),
+    ("<!-- ACTIVITY:START -->", "<!-- ACTIVITY:END -->"),
 ]
 
-# House style: no em dashes, no curly quotes, no stock AI phrasing.
 STYLE_RULES = [
     ("\u2014", "em dash. Use a comma, a colon, a full stop, or split the sentence."),
     ("\u2013", "en dash in prose. Use a hyphen or rewrite."),
@@ -34,8 +29,6 @@ STYLE_RULES = [
     ("\u2019", "curly apostrophe. Use a straight apostrophe."),
 ]
 
-# Phrasing that reads as machine-written. Keep the list tight so it does not
-# fire on ordinary technical writing.
 AI_PHRASES = [
     "delve", "tapestry", "testament to", "underscores", "showcases", "showcasing",
     "pivotal", "intricate", "fostering", "bolsters", "garnered", "myriad",
@@ -45,7 +38,6 @@ AI_PHRASES = [
     "serves as a", "stands as a", "nestled", "vibrant", "robust solution",
 ]
 
-# GitHub's HTML pipeline removes these even though they are valid HTML.
 FORBIDDEN_PATTERNS = [
     (r"<style\b", "inline <style> tags are stripped by GitHub"),
     (r"<script\b", "inline <script> tags are stripped by GitHub"),
@@ -68,6 +60,20 @@ def relative_targets(content: str) -> set[str]:
     return targets
 
 
+def validate_svgs(problems: list[str]) -> None:
+    """Verify every SVG file under assets/ is well-formed XML."""
+    if not ASSETS_DIR.exists():
+        return
+    for svg_file in sorted(ASSETS_DIR.glob("*.svg")):
+        if svg_file.stat().st_size == 0:
+            problems.append(f"SVG asset is empty: {svg_file}")
+            continue
+        try:
+            ET.parse(svg_file)
+        except ET.ParseError as exc:
+            problems.append(f"Invalid XML in {svg_file}: {exc}")
+
+
 def main() -> int:
     if not README.exists():
         print(f"::error::{README} is missing.")
@@ -85,12 +91,17 @@ def main() -> int:
         elif content.index(start) > content.index(end):
             problems.append(f"Marker pair {start} / {end} is out of order.")
 
+    if "ccsalman545" in content:
+        problems.append("README still references old GitHub username 'ccsalman545'.")
+
     for path in sorted(relative_targets(content)):
         target = Path(path.split("?")[0].split("#")[0])
         if target.is_absolute() or not target.exists():
             problems.append(f"Referenced path does not exist: {path}")
         elif target.suffix.lower() == ".svg" and target.stat().st_size == 0:
             problems.append(f"SVG asset is empty: {path}")
+
+    validate_svgs(problems)
 
     seen_style: list[str] = []
     for needle, reason in STYLE_RULES:

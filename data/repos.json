@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "label": "repositories",
-  "message": "15",
-  "color": "0969da",
+  "message": "18",
+  "color": "FF6B35",
   "cacheSeconds": 43200,
   "style": "flat-square",
   "namedLogo": "github"
