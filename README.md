@@ -162,7 +162,7 @@ Custom user-scoped KDE Plasma 6.7 Wayland lock-screen shell (`Plasma/Shell`) eng
 </p>
 
 <!-- COUNTERS:START -->
-<sub>**Snapshot** ([all 18 public repositories](https://github.com/salman-cc?tab=repositories)): `16` original repositories · `226` contributions in the past year (`198` commits) · Core stack: `C, Make & CMake, JavaScript & TypeScript, Python` · Latest push: `Nov 05, 2026`</sub>
+<sub>**Snapshot** ([all 18 public repositories](https://github.com/salman-cc?tab=repositories)): `11` original repositories · `241` contributions in the past year (`212` commits) · Core stack: `C, JavaScript & TypeScript, ARM Assembly & Linker, Python` · Latest push: `Nov 05, 2026`</sub>
 <!-- COUNTERS:END -->
 
 <details>
