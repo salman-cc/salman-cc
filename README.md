@@ -1,322 +1,218 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" alt="Muhammed Salman CC, M.Sc. Electronics at CUSAT" width="100%">
-</picture>
+<img src="assets/hero-banner.svg" alt="Muhammed Salman CC - M.Sc. Electronics Student at CUSAT. Embedded Systems, FPGA Hardware Design, Robotics and IoT." width="100%">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=850&color=58A6FF&center=true&vCenter=true&width=760&lines=Embedded+Systems;Embedded+Linux;STM32+and+ESP32+firmware;ROS+2+and+robotics;FPGA+and+computer+vision;Open+source">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=850&color=0969DA&center=true&vCenter=true&width=760&lines=Embedded+Systems;Embedded+Linux;STM32+and+ESP32+firmware;ROS+2+and+robotics;FPGA+and+computer+vision;Open+source">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=850&color=58A6FF&center=true&vCenter=true&width=760&lines=Embedded+Systems;Embedded+Linux;STM32+and+ESP32+firmware;ROS+2+and+robotics;FPGA+and+computer+vision;Open+source" alt="Focus areas" width="760">
-</picture>
+<br>
+
+**Electronics and embedded systems developer working across hardware bring-up, deterministic C firmware, and Embedded Linux.**<br>
+<sub>M.Sc. Electronics Student at <b>Cochin University of Science and Technology (CUSAT)</b> · Malappuram / Kochi, Kerala, India (UTC+05:30)</sub>
 
 <br><br>
 
-[![Portfolio](https://img.shields.io/badge/portfolio-muhammed--salman--cc.is--a.dev-0969DA?style=flat-square&logo=vercel&logoColor=white)](https://muhammed-salman-cc.is-a.dev)
-[![Email](https://img.shields.io/badge/email-ccmuhammedsalman%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ccmuhammedsalman@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-muhammed--salman--cc-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-salman-cc-b752243b)
-[![GitHub](https://img.shields.io/badge/GitHub-%40ccsalman545-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/ccsalman545)
-
-<br>
-
-> Electronics and firmware. I build small systems, measure them, and write down what worked.
-
-`studying` M.Sc. Electronics, Cochin University of Science and Technology
-<br>
-`based in` Kerala, India (UTC+05:30)
-<br>
-`open to` collaboration on embedded, Linux, and robotics work
+<a href="https://muhammed-salman-cc.is-a.dev"><img src="assets/link-portfolio.svg" alt="Portfolio: muhammed-salman-cc.is-a.dev" height="32"></a>&nbsp;
+<a href="mailto:ccmuhammedsalman@gmail.com"><img src="assets/link-email.svg" alt="Email: ccmuhammedsalman@gmail.com" height="32"></a>&nbsp;
+<a href="mailto:muhammedsalmancc@pg.cusat.ac.in"><img src="assets/link-cusat.svg" alt="Academic Email: muhammedsalmancc@pg.cusat.ac.in" height="32"></a>&nbsp;
+<a href="https://www.linkedin.com/in/muhammed-salman-cc-b7522433b"><img src="assets/link-linkedin.svg" alt="LinkedIn: muhammed-salman-cc" height="32"></a>&nbsp;
+<a href="https://github.com/salman-cc?tab=repositories"><img src="assets/link-github.svg" alt="GitHub Repositories: @salman-cc" height="32"></a>
 
 </div>
 
-## About
+<img src="assets/section-divider.svg" alt="" width="100%">
 
-I am Muhammed Salman CC, an M.Sc. Electronics student at the Cochin University of Science and Technology in Kerala, India.
+## `01` About Me
 
-Most of my work sits where a circuit, its firmware, and the software on top of it have to agree with each other. That usually means reading a datasheet, writing a driver, then wiring the result into something a person can use. At the moment that is STM32 and ESP32 firmware, Embedded Linux, ROS 2, and image processing on FPGA.
+I am **Muhammed Salman CC**, an M.Sc. Electronics student at **Cochin University of Science and Technology (CUSAT)** with an undergraduate background in Electronics from the University of Calicut. My engineering work sits at the boundary where physical circuits, peripheral registers, and systems software have to agree with each other.
 
-I keep public notes on nearly all of it. If a script or a pinout helps me twice, it goes in a repository.
+In practice, that means starting from datasheets and schematics rather than treating hardware as an abstraction: conditioning sensor front-ends and AC/DC switching stages, writing bare-metal DMA and Ethernet drivers on ARM Cortex-M7 microcontrollers (`STM32H7`), running real-time network stacks under Azure RTOS ThreadX and LwIP, and building single-binary C camera servers on Embedded Linux without heavy runtime dependencies.
 
-## What I work with
+Alongside microcontroller and Linux systems development, my academic work at CUSAT focuses on digital hardware design in Verilog HDL and Xilinx Vivado, investigating how FPGA spatial parallelism lowers latency and power consumption in robotic perception and edge intelligence pipelines.
 
-<sub>Languages I write, tools I use, and hardware I have on the bench. I leave out anything I have only read about.</sub>
+<p align="center">
+  <img src="assets/system-architecture.svg" alt="Four-layer engineering architecture diagram: Circuits and Digital Logic, Deterministic MCU Firmware, Embedded Linux and Protocols, and Perception and Control." width="100%">
+</p>
 
-**Languages**
+| Background | Detail |
+| :-- | :-- |
+| **Graduate Study** | M.Sc. Electronics, Cochin University of Science and Technology (CUSAT) · *Expected 2027* (`Embedded Systems`, `FPGA Design`, `Robotics`, `DSP`, `Control Systems`) |
+| **Undergraduate** | B.Sc. Electronics, Malabar College of Advanced Studies, University of Calicut (`Analog & Digital Electronics`, `Communication Systems`) |
+| **Engineering Recognition** | District-level Young Innovators Programme (YIP) Winner for *Auto Hibernate for Inverters* (priority-based AC load-shedding controller) |
+| **Industry & Community** | Former IoT Intern at Sparkiit (`ESP32` / `NodeMCU` firmware) · Founder of **AiCoN Tech Hub** (open-source, Linux, and AI technical education) |
 
-[![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=flat-square)](https://en.wikipedia.org/wiki/Verilog)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+<img src="assets/section-divider.svg" alt="" width="100%">
 
-**Systems and editors**
+## `02` Technical Expertise
 
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.kernel.org/)
-[![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=flat-square&logo=fedora&logoColor=white)](https://fedoraproject.org/)
-[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+<sub>Technologies are grouped by engineering domain and separated into <b>Demonstrated</b> (backed by public repositories, bench hardware, or completed coursework) and <b>Exploring</b> (active study and ongoing experimentation).</sub>
 
-**Hardware and bench**
+| Domain | Demonstrated in Repositories & Lab Work | Currently Exploring |
+| :-- | :-- | :-- |
+| **Embedded Systems** | `STM32H7 (Cortex-M7)` `ESP32` `Arduino / ATmega328P` `Embedded C` `Azure RTOS ThreadX` `LwIP` `NetX Duo` `RMII Ethernet (LAN8742)` `UART / SPI / I2C / PWM` `Sensor & Relay Interfacing` | `FreeRTOS` `CAN Bus` `Low-Power Firmware Design` |
+| **Hardware & FPGA** | `Verilog HDL` `Xilinx Vivado` `RTL & FSM Design` `Digital Electronics` `AC/DC Sensing & Load Switching` `Circuit Simulation (Proteus, Cadence Virtuoso)` | `SystemVerilog` `VHDL` `Pipelined FPGA Vision Cores` |
+| **Programming** | `C (C11)` `Python` `JavaScript` `TypeScript` `Bash / POSIX Shell` `ARM Assembly & Linker Scripts` `QML` | `Modern C++ (Embedded & Robotics)` |
+| **Robotics & AI** | `V4L2 & CSI Camera Capture` `Hardware H.264 M2M Encoding` `Low-Latency WebRTC / RTP Transport` `FPGA Robotic Perception Study` | `ROS 2` `Computer Vision (OpenCV)` `Machine Learning & Edge AI` |
+| **Tools & Platforms** | `Linux (Fedora, Debian, Raspberry Pi OS)` `STM32CubeIDE / CubeMX` `GNU Arm Toolchain` `Git & GitHub Actions` `Make & CMake` `Wireshark` `GNU Radio` `Firebase` `VS Code` | `Embedded Linux Build Systems (Buildroot / Yocto)` |
 
-[![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)](https://www.espressif.com/en/products/socs/esp32)
-[![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)](https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html)
-[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)](https://www.raspberrypi.com/)
-[![FPGA](https://img.shields.io/badge/FPGA-7E57C2?style=flat-square)](https://en.wikipedia.org/wiki/Field-programmable_gate_array)
-[![Vivado](https://img.shields.io/badge/Vivado-E01F27?style=flat-square&logo=xilinx&logoColor=white)](https://www.xilinx.com/products/design-tools/vivado.html)
+<img src="assets/section-divider.svg" alt="" width="100%">
 
-**Vision, robotics, and tooling**
+## `03` Featured Engineering Projects
 
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/)
-[![ROS 2](https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white)](https://www.ros.org/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
-[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
+<sub>Selected from my public repositories based on hardware integration, systems complexity, and documentation depth. Status labels reflect actual repository state.</sub>
 
-**Protocols**
-
-[![I2C](https://img.shields.io/badge/I2C-0F766E?style=flat-square)](https://www.i2c-bus.org/)
-[![SPI](https://img.shields.io/badge/SPI-0F766E?style=flat-square)](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface)
-[![UART](https://img.shields.io/badge/UART-0F766E?style=flat-square)](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter)
-[![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)](https://mqtt.org/)
-[![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)](https://firebase.google.com/)
-
-## Activity at a glance
-
-<sub>Numbers pulled from the GitHub API on a schedule.</sub>
-
-<!-- COUNTERS:START -->
-<div align="center">
-
-[![Repositories](https://img.shields.io/badge/Repositories-15-0969DA?style=flat-square&logo=github&logoColor=white)](https://github.com/ccsalman545?tab=repositories) [![Languages](https://img.shields.io/badge/Languages-5-58A6FF?style=flat-square&logo=github&logoColor=white)](https://github.com/ccsalman545?tab=repositories) [![Followers](https://img.shields.io/badge/Followers-2-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/ccsalman545?tab=followers) [![Stars](https://img.shields.io/badge/Stars-0-6E40C9?style=flat-square&logo=github&logoColor=white)](https://github.com/ccsalman545?tab=repositories) [![Refreshed](https://img.shields.io/badge/Refreshed-Sep%2004%2C%202026-0F766E?style=flat-square)](https://github.com/ccsalman545/ccsalman545/actions)
-
-</div>
-<!-- COUNTERS:END -->
-
-<table align="center">
+<table>
   <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ccsalman545&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&theme=github_dark">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ccsalman545&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&theme=default">
-        <img alt="GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=ccsalman545&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&theme=github_dark" width="410">
-      </picture>
+    <td width="50%" valign="top">
+
+<sub><code>STM32H7 · BARE-METAL ETHERNET</code></sub>
+
+### [H753ZI_UDP_Test ↗](https://github.com/salman-cc/H753ZI_UDP_Test)
+
+Deterministic UDP-over-Ethernet firmware for the **Nucleo-H753ZI** (`STM32H753ZITx`, ARM Cortex-M7) driving an external `LAN8742` RMII PHY without an RTOS.
+
+- **Engineering purpose:** Implements the LwIP-to-ETH MAC glue (`ethernetif.c`) from scratch against STM32Cube H7 HAL v1.13 callback-managed RX DMA descriptor pools, verifying wire-exact 92-byte Ethernet/IPv4/UDP frames in Wireshark and documenting 50 MHz `REF_CLK` hardware strapping requirements.
+- **Stack:** `C` `STM32H7 HAL` `LwIP` `RMII / LAN8742` `DMA` `ARM GCC` `Wireshark`
+
     </td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ccsalman545&layout=compact&langs_count=8&hide_border=true&theme=github_dark">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ccsalman545&layout=compact&langs_count=8&hide_border=true&theme=default">
-        <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ccsalman545&layout=compact&langs_count=8&hide_border=true&theme=github_dark" width="410">
-      </picture>
+    <td width="50%" valign="top">
+
+<sub><code>RTOS · DUAL-STACK IPV4 / IPV6</code></sub>
+
+### [crispy-octo-computing-machine ↗](https://github.com/salman-cc/crispy-octo-computing-machine)
+
+Real-time networked control and telemetry node on **NUCLEO-H743ZI2** (`STM32H743ZIT6`, Cortex-M7) running **Azure RTOS ThreadX 6.2** and **NetX Duo 6.2**.
+
+- **Engineering purpose:** Pairs inbound dual-stack IPv4/IPv6 UDP command handling (port 6000) with software-debounced GPIO button telemetry and `USART3` serial instrumentation, including manual IPv6 stack bring-up beyond default STM32CubeMX code generation.
+- **Stack:** `C` `STM32H743` `Azure RTOS ThreadX` `NetX Duo` `IPv4 / IPv6 UDP` `USART`
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+<sub><code>EMBEDDED LINUX · REAL-TIME VIDEO</code></sub>
+
+### [cam (camstream) ↗](https://github.com/salman-cc/cam)
+
+Single-binary, zero-runtime WebRTC camera server (~18k lines of C) streaming live V4L2 or Raspberry Pi CSI video directly to a browser tab over LAN.
+
+- **Engineering purpose:** Replaces heavy media frameworks (GStreamer, Janus, Node.js) on resource-constrained Linux SBCs by implementing refcounted zero-allocation frame pools, V4L2 M2M hardware H.264 encoding with `libx264` fallback, ICE-lite, DTLS 1.2, SRTP, NACK retransmission, and mDNS discovery in pure C.
+- **Stack:** `C11` `V4L2 / CSI` `H.264 M2M` `WebRTC (DTLS / SRTP / RTP)` `OpenSSL` `libsrtp2` `Makefile`
+
+    </td>
+    <td width="50%" valign="top">
+
+<sub><code>HARDWARE BRING-UP · 55 SENSORS & 14 BOARDS</code></sub>
+
+### [Embedded-Projects ↗](https://github.com/salman-cc/Embedded-Projects)
+
+Structured hardware engineering reference covering **55 sensors** and **14 development boards** (STM32, ESP32, Arduino, RP2040, Teensy) backed by a Python catalog generator.
+
+- **Engineering purpose:** Standardizes bench bring-up by pairing authoritative datasheet pinouts, generated SVG pin-reference diagrams, physical sensing notes, part trade-offs, and two-stage firmware verification recipes before application logic is written.
+- **Stack:** `Embedded C` `STM32` `ESP32` `Arduino` `I2C / SPI / UART` `Python` `SVG`
+
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+<sub><code>FPGA & ROBOTICS · ACTIVE RESEARCH</code></sub>
+
+### [FPGA-Vision-Processing ↗](https://github.com/salman-cc/FPGA-Vision-Processing)
+
+M.Sc. Electronics research and RTL study repository at CUSAT examining FPGA-based image processing architectures for autonomous robotics *(active development)*.
+
+- **Engineering purpose:** Evaluates how hardware-level spatial parallelism on FPGAs addresses real-time latency and power constraints in obstacle detection, feature extraction, and stereo vision compared against sequential CPU vision execution.
+- **Stack:** `FPGA` `Verilog` `VHDL` `Computer Vision` `Autonomous Robotics`
+
+    </td>
+    <td width="50%" valign="top">
+
+<sub><code>LINUX SYSTEMS · WAYLAND SHELL</code></sub>
+
+### [fedlock ↗](https://github.com/salman-cc/fedlock)
+
+Custom user-scoped KDE Plasma 6.7 Wayland lock-screen shell (`Plasma/Shell`) engineered for **Fedora 44** with safe user-space installation and rollback scripts.
+
+- **Engineering purpose:** Integrates cleanly with Plasma 6.7's `kscreenlocker_greet` architecture using QML/Qt 6 while strictly isolating user configuration inside `~/.local/share/plasma/shells/` without touching system files or PAM authentication boundaries.
+- **Stack:** `QML` `Qt 6` `KDE Frameworks 6` `Wayland` `Bash` `Fedora Linux`
+
     </td>
   </tr>
 </table>
 
+### Additional Public Repositories
+
+| Repository | Domain | Engineering Summary | Stack |
+| :-- | :-- | :-- | :-- |
+| [**legendary-chainsaw**](https://github.com/salman-cc/legendary-chainsaw) | Linux Camera Pipeline | Portable C11 V4L2 frame grabber and embedded HTTP/WebSocket server streaming raw YUYV video to an HTML5 canvas across x86-64 and ARM Linux. | `C11` `V4L2` `WebSocket` |
+| [**JKSS-FUND**](https://github.com/salman-cc/JKSS-FUND) | Mobile & Cloud Systems | Android hostel fund ledger with integer-paise accounting, atomic 10%/90% job splits, hardened Firestore security rules, and CSPRNG local provisioning. | `JavaScript` `Expo` `Firebase` |
+| [**Linux-Scripts**](https://github.com/salman-cc/Linux-Scripts) | Systems & Automation | Fedora automation scripts and a 20-section Linux command internals library covering exit codes, flags, diagnostics, and RHCSA/LPIC notes. | `Bash` `Linux` `Fedora` |
+| [**Arduino-IoT**](https://github.com/salman-cc/Arduino-IoT) | Connected Hardware | ESP32 and Arduino IoT node experiments integrating environmental/power sensing with MQTT and cloud telemetry *(active development)*. | `ESP32` `Arduino` `MQTT` |
+| [**muhammed-salman-portfolio**](https://github.com/salman-cc/muhammed-salman-portfolio) | Engineering Portfolio | Personal portfolio site (`muhammed-salman-cc.is-a.dev`) built with hand-authored CSS design tokens, dual themes, and automated `axe-core` accessibility tests. | `TypeScript` `React 19` `Vite` |
+
+<img src="assets/section-divider.svg" alt="" width="100%">
+
+## `04` GitHub Statistics & Activity
+
+<sub>Generated directly from the GitHub REST and GraphQL APIs into a repository-hosted SVG (`assets/github-telemetry.svg`) so telemetry renders reliably without third-party widget downtime or rate-limit errors.</sub>
+
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ccsalman545&theme=github-dark-blue&hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=ccsalman545&theme=github-light&hide_border=true">
-    <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=ccsalman545&theme=github-dark-blue&hide_border=true">
-  </picture>
+  <a href="https://github.com/salman-cc?tab=repositories">
+    <img src="assets/github-telemetry.svg" alt="GitHub engineering telemetry for @salman-cc: repository counts, annual contribution activity, 52-week contribution heatmap, and most-used languages across original repositories." width="100%">
+  </a>
 </p>
+
+<!-- COUNTERS:START -->
+<sub>**Snapshot** ([all 18 public repositories](https://github.com/salman-cc?tab=repositories)): `16` original repositories · `226` contributions in the past year (`198` commits) · Core stack: `C, Make & CMake, JavaScript & TypeScript, Python` · Latest push: `Nov 05, 2026`</sub>
+<!-- COUNTERS:END -->
 
 <details>
-<summary>Contribution graph, trophies, and snake</summary>
+<summary><b>Recent Public GitHub Activity</b> <sub>(auto-refreshed from GitHub Events API)</sub></summary>
 
 <br>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ccsalman545&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=FFFFFF&area=true&hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ccsalman545&bg_color=FFFFFF&color=24292F&line=0969DA&point=57606A&area=true&hide_border=true">
-    <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ccsalman545&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=FFFFFF&area=true&hide_border=true" width="100%">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=ccsalman545&theme=onedark&no-frame=true&row=1&column=7">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=ccsalman545&theme=flat&no-frame=true&row=1&column=7">
-    <img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ccsalman545&theme=onedark&no-frame=true&row=1&column=7">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ccsalman545/ccsalman545/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ccsalman545/ccsalman545/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/ccsalman545/ccsalman545/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
-</details>
-
-## Repositories
-
-<sub>Refreshed weekly from the GitHub API, so the numbers below are never typed by hand.</sub>
-
-<!-- REPOS:START -->
-| Repository | Stack | ★ | ⑂ | Pushed |
-| :-- | :-- | --: | --: | :-- |
-| [**Linux-Scripts**](https://github.com/ccsalman545/Linux-Scripts)<br><sub>Useful Bash scripts and Fedora automation tools.</sub> | `automation` `bash` | 0 | 0 | Jul 17, 2026 |
-| [**Embedded-Projects**](https://github.com/ccsalman545/Embedded-Projects)<br><sub>Embedded systems projects using Arduino, ESP32, STM32, and sensors.</sub> | `Python` `arduino` | 0 | 0 | Jul 17, 2026 |
-| [**FPGA-Vision-Processing**](https://github.com/ccsalman545/FPGA-Vision-Processing)<br><sub>FPGA-based image processing experiments for autonomous robotics.</sub> | `computer vision` `embedded systems` | 0 | 0 | Jul 03, 2026 |
-| [**muhammed-salman-portfolio**](https://github.com/ccsalman545/muhammed-salman-portfolio)<br><sub>Personal portfolio website of Muhammed Salman CC M.Sc. Electronics student focused on Embedded…</sub> | `TypeScript` | 0 | 0 | Jul 17, 2026 |
-| [**Arduino-IoT**](https://github.com/ccsalman545/Arduino-IoT)<br><sub>IoT projects using Arduino and ESP32.</sub> | `arduino` `esp32` | 0 | 0 | Jul 03, 2026 |
-| [**fedlock**](https://github.com/ccsalman545/fedlock)<br><sub>custom KDE Plasma 6.7 lock screen (KScreenLocker) for Fedora 44 running on Wayland. Target…</sub> | `QML` | 0 | 0 | Aug 16, 2026 |
-<!-- REPOS:END -->
-
-<p align="center">
-[![Explore all repositories](https://img.shields.io/badge/explore-all%20repositories-0969DA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ccsalman545?tab=repositories)
-</p>
-
-## Recent activity
-
-<sub>Refreshed daily from public GitHub events. Changes to this profile repository are left out.</sub>
 
 <!-- ACTIVITY:START -->
-- **Push** in [ccsalman545/fedlock](https://github.com/ccsalman545/fedlock): updated `main`, 18 days ago
-- **Push** in [ccsalman545/AiCoN](https://github.com/ccsalman545/AiCoN): updated `main`, 25 days ago
-- **Starred** [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), today
-- **Push** in [ccsalman545/ideal-broccoli](https://github.com/ccsalman545/ideal-broccoli): updated `main`, 3 days ago
-- **Push** in [ccsalman545/legendary-chainsaw](https://github.com/ccsalman545/legendary-chainsaw): updated `main`, 13 days ago
+- **Pull request** in [salman-cc/muhammed-salman-portfolio](https://github.com/salman-cc/muhammed-salman-portfolio): merged a pull request, 14 days ago
+- **Push** in [salman-cc/muhammed-salman-portfolio](https://github.com/salman-cc/muhammed-salman-portfolio): updated `main`, 14 days ago
+- **Push** in [salman-cc/JKSS-FUND](https://github.com/salman-cc/JKSS-FUND): updated `main`, 20 days ago
+- **Pull request** in [salman-cc/JKSS-FUND](https://github.com/salman-cc/JKSS-FUND): merged a pull request, 20 days ago
+- **Starred** [aicon-hub/aicon-hub](https://github.com/aicon-hub/aicon-hub), today
 <!-- ACTIVITY:END -->
 
-## Writing
-
-<!-- BLOG-POST-LIST:START -->
-- *The writing feed is ready. Add a public RSS or Atom URL to the `BLOG_RSS_URL` repository variable and posts will list here.*
-<!-- BLOG-POST-LIST:END -->
-
-## Projects
-
-#### [Linux Commands Library](https://github.com/ccsalman545/Linux-Scripts)
-
-A reference of Linux commands split into twenty sections: syntax, examples, troubleshooting, and exam notes. I built it around the commands I kept looking up twice.
-
-#### [Embedded Projects](https://github.com/ccsalman545/Embedded-Projects)
-
-A catalogue of 55 sensors and 14 development boards with pin references, diagrams, and bring-up notes. It exists so I can pick a part without re-reading the whole datasheet.
-
-#### [FPGA Vision Processing](https://github.com/ccsalman545/FPGA-Vision-Processing)
-
-Image processing for autonomous robotics on FPGA hardware. Early work: filters and pipelines in Verilog, compared against what OpenCV does on a CPU.
-
-#### [Portfolio](https://github.com/ccsalman545/muhammed-salman-portfolio)
-
-My site, built with React, TypeScript, Vite, and Tailwind CSS.
-
-## Contact
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white)](https://muhammed-salman-cc.is-a.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-salman-cc-b752243b)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ccmuhammedsalman@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ccsalman545)
-
-</div>
-
-Email reaches me fastest. I read everything, and I am happy to talk about embedded work, open source, or a project you are stuck on.
-
-<details>
-<summary>Where I am heading</summary>
-
-<br>
-
-Self-assessed, so read this as a to-do list rather than a score.
-
-- **Linux and shell scripting.** I write scripts most weeks and know the everyday parts well.
-- **Embedded Linux.** I can bring a board up. Driver and build-system work is the gap.
-- **STM32 and ESP32 firmware.** I write drivers from the datasheet. RTOS is next.
-- **ROS 2.** I have worked through the basics and need more time on a real robot.
-- **FPGA and computer vision.** Early experiments, mostly filters and pipelines in Verilog.
-
 </details>
 
-<details>
-<summary>How I work</summary>
+<img src="assets/section-divider.svg" alt="" width="100%">
 
-<br>
+## `05` Current Focus
 
-1. Read the datasheet before asking anyone.
-2. Get one sensor or one driver working before wiring up the whole thing.
-3. Measure. Logs and a scope beat guesses.
-4. Make errors loud. A clear failure message saves an afternoon.
-5. Prefer the boring solution someone else can debug next month.
-6. Write it down while it is fresh, or the project is not finished.
-7. Respect the hardware. Current limits and calibration are part of correctness.
+Areas I am actively studying, prototyping, and documenting during my M.Sc. Electronics work at CUSAT:
 
-</details>
+- **Advanced Embedded Systems:** High-speed ARM Cortex-M7 peripherals, zero-copy DMA descriptor rings, hardware timer synchronization, and deterministic driver architecture from bare-metal register specs.
+- **Real-Time Operating Systems:** Deterministic task scheduling, inter-task synchronization, memory pool discipline, and embedded TCP/IP and UDP stacks across **Azure RTOS ThreadX** and **FreeRTOS**.
+- **FPGA Architecture & Digital Design:** Synthesizable **Verilog / SystemVerilog** RTL, pipelined datapaths, finite-state machines, and timing-aware digital systems verification in **Xilinx Vivado**.
+- **Robotics & Intelligent Automation:** **ROS 2** communication graphs, low-latency embedded camera/sensor ingestion, hardware-timed actuation, and autonomous mobile robot fundamentals.
+- **AI-Enabled Hardware Applications:** Running compact computer vision pipelines and edge inference workloads across microcontrollers, Embedded Linux SBCs, and FPGA hardware accelerators.
 
-<details>
-<summary>Timeline</summary>
+<img src="assets/section-divider.svg" alt="" width="100%">
 
-<br>
+## `06` Connect With Me
 
-| Year | |
-| :-- | :-- |
-| 2024 | Started with microcontrollers and basic electronics. |
-| 2025 | Began publishing projects and notes on GitHub. |
-| 2026 | M.Sc. Electronics at CUSAT. Linux reference, sensor library, robotics and FPGA work. |
+I am open to collaborations on embedded systems, Linux drivers and media pipelines, FPGA digital design, robotics projects, and engineering internships. Email is the fastest way to reach me.
 
-</details>
-
-<details>
-<summary>Around the work</summary>
-
-<br>
-
-I am in Kerala, India, and I like the part where circuits turn into code.
-
-A good session involves a Linux terminal, a breadboard, and a notebook full of signal paths.
-
-Grace Hopper said the most dangerous phrase in the language is "we have always done it this way." I try to check my defaults against that.
-
-</details>
-
-<details>
-<summary>Coding hours</summary>
-
-<br>
-
-<!--START_SECTION:waka-->
-- *Tracking is off. Create the `WAKATIME_API_KEY` repository secret and set the `ENABLE_WAKATIME` variable to `true` to fill this in.*
-<!--END_SECTION:waka-->
-
-</details>
-
-<details>
-<summary>About this page</summary>
-
-<br>
-
-The page is plain Markdown plus a few blocks that scheduled workflows rewrite, so the numbers stay current without me editing them.
-
-| Block | Source | Refreshed |
+| Channel | Verified Destination | Purpose |
 | :-- | :-- | :-- |
-| Banner and artwork | Local SVG in `assets/` | On edit |
-| Counters and repository table | `update_repos.py` | Weekly |
-| Recent activity | `update_activity.py` | Daily |
-| Writing | RSS feed in `BLOG_RSS_URL` | Daily |
-| Stats, languages, streak | github-readme-stats and streak-stats | Live |
-| Graph, trophies, snake | Their own providers, snake on the `output` branch | Live and weekly |
-
-Cards come in two variants and swap on `prefers-color-scheme`, so the page matches GitHub Light and GitHub Dark.
-
-The workflows are in `docs/workflow-templates/`. GitHub does not let automated tools write to `.github/workflows/`, so install them with `bash scripts/enable-automation.sh`. Setup notes are in `docs/PROFILE_SETUP.md`.
-
-</details>
-
-<div align="center">
-
-Thanks for reading. If something here saved you time, a star or a clear issue report helps.
+| **Portfolio** | [muhammed-salman-cc.is-a.dev](https://muhammed-salman-cc.is-a.dev) | Project case studies, academic background, and hardware notes |
+| **Personal Email** | [ccmuhammedsalman@gmail.com](mailto:ccmuhammedsalman@gmail.com) | Engineering opportunities, project collaboration, and general inquiries |
+| **University Email** | [muhammedsalmancc@pg.cusat.ac.in](mailto:muhammedsalmancc@pg.cusat.ac.in) | Academic research, CUSAT coursework, and laboratory correspondence |
+| **LinkedIn** | [linkedin.com/in/muhammed-salman-cc-b7522433b](https://www.linkedin.com/in/muhammed-salman-cc-b7522433b) | Professional network and updates |
+| **GitHub** | [github.com/salman-cc](https://github.com/salman-cc) | Source code, firmware repositories, and hardware documentation |
 
 <br>
 
-[![Back to top](https://img.shields.io/badge/%E2%86%91-back%20to%20top-0969DA?style=flat-square)](#)
+<div align="center">
+
+<img src="assets/section-divider.svg" alt="" width="100%">
+
+<sub><b>Muhammed Salman CC</b> · M.Sc. Electronics, CUSAT · Kerala, India</sub><br>
+<sub>Read the datasheet first, measure on real hardware, and document what worked.</sub>
 
 </div>

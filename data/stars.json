@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "label": "stars",
-  "message": "0",
-  "color": "6e40c9",
+  "message": "1",
+  "color": "FF6B35",
   "cacheSeconds": 43200,
   "style": "flat-square",
   "namedLogo": "github"

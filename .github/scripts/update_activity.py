@@ -52,6 +52,7 @@ def fetch_showable_repos() -> set[str]:
         repo.get("name", "")
         for repo in payload
         if isinstance(repo, dict)
+        and not repo.get("fork")
         and (repo.get("description") or repo.get("topics") or repo.get("stargazers_count"))
     }
 
@@ -79,6 +80,8 @@ def event_summary(event: dict) -> tuple[str, str, str] | None:
     if event_type == "PushEvent":
         count = len(payload.get("commits") or [])
         branch = (payload.get("ref") or "").removeprefix("refs/heads/")
+        if branch.startswith("arena/"):
+            return None
         if count:
             noun = "commit" if count == 1 else "commits"
             headline = commit_headline(payload)
@@ -94,9 +97,10 @@ def event_summary(event: dict) -> tuple[str, str, str] | None:
     if event_type == "CreateEvent":
         ref_type = payload.get("ref_type", "repository")
         ref = payload.get("ref")
-        # Creating the default branch is an artefact of initialising a
-        # repository, not something a visitor cares about.
-        if ref_type == "branch" and ref in {"main", "master", "develop"}:
+        # Creating the default branch or an ephemeral workspace branch is noise.
+        if ref_type == "branch" and (
+            ref in {"main", "master", "develop"} or str(ref).startswith("arena/")
+        ):
             return None
         return "Create", subject, f"{ref_type} `{ref}`" if ref else ref_type
 

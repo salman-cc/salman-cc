@@ -22,7 +22,7 @@ jobs:
       - name: Render the latest public activity
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: ccsalman545
+          PROFILE_USERNAME: salman-cc
         run: python3 .github/scripts/update_activity.py
 
       - name: Commit the refreshed activity block

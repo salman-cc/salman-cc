@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -17,7 +18,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 API_ROOT = "https://api.github.com"
-USER_AGENT = "ccsalman545-profile-readme"
+USER_AGENT = "salman-cc-profile-readme"
 API_VERSION = "2022-11-28"
 
 # Allow ``from profile_common import ...`` whether the script is run directly or
@@ -27,7 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 def username() -> str:
     """Return the profile account name, overridable for forks and testing."""
-    return os.environ.get("PROFILE_USERNAME", "ccsalman545")
+    return os.environ.get("PROFILE_USERNAME", "salman-cc")
 
 
 def is_profile_repo(name: str) -> bool:
@@ -35,18 +36,29 @@ def is_profile_repo(name: str) -> bool:
     return name.strip().lower() == f"{username()}/{username()}".lower()
 
 
-def github_json(path: str, *, timeout: int = 30) -> Any:
-    """GET a JSON payload from the GitHub REST API.
+def resolve_token() -> str | None:
+    """Return GITHUB_TOKEN from the environment, or from gh CLI when available."""
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+    if token:
+        return token.strip()
+    try:
+        out = subprocess.check_output(
+            ["gh", "auth", "token"], stderr=subprocess.DEVNULL, timeout=5
+        )
+        resolved = out.decode("utf-8").strip()
+        return resolved or None
+    except (OSError, subprocess.SubprocessError):
+        return None
 
-    Uses the short-lived ``GITHUB_TOKEN`` when Actions provides one, which lifts
-    the unauthenticated 60-requests-per-hour limit.
-    """
+
+def github_json(path: str, *, timeout: int = 30) -> Any:
+    """GET a JSON payload from the GitHub REST API."""
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": USER_AGENT,
         "X-GitHub-Api-Version": API_VERSION,
     }
-    token = os.environ.get("GITHUB_TOKEN")
+    token = resolve_token()
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
@@ -60,6 +72,30 @@ def github_json(path: str, *, timeout: int = 30) -> Any:
         ) from error
     except (URLError, TimeoutError) as error:  # pragma: no cover - network dependent
         raise RuntimeError(f"Could not reach the GitHub API for {path}: {error}") from error
+
+
+def github_graphql(query: str, variables: dict[str, Any] | None = None, *, timeout: int = 30) -> dict[str, Any] | None:
+    """Execute a GitHub GraphQL query when a token is available; return None otherwise."""
+    token = resolve_token()
+    if not token:
+        return None
+
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Content-Type": "application/json",
+        "User-Agent": USER_AGENT,
+        "Authorization": f"Bearer {token}",
+    }
+    body = json.dumps({"query": query, "variables": variables or {}}).encode("utf-8")
+    request = Request(f"{API_ROOT}/graphql", data=body, headers=headers, method="POST")
+    try:
+        with urlopen(request, timeout=timeout) as response:  # nosec B310 - fixed API root
+            payload = json.load(response)
+            if isinstance(payload, dict) and "data" in payload and not payload.get("errors"):
+                return payload["data"]
+            return None
+    except (HTTPError, URLError, TimeoutError, ValueError):
+        return None
 
 
 def iso_date(value: str | None, fmt: str = "%b %d, %Y") -> str:
@@ -104,20 +140,26 @@ def escape_cell(text: str) -> str:
     return text.replace("\\", "\\\\").replace("|", "\\|").replace("\n", " ").strip()
 
 
+def xml_escape(text: str) -> str:
+    """Escape text for safe inclusion inside SVG XML text nodes and attributes."""
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
 def truncate(text: str, limit: int = 96) -> str:
     """Shorten text to ``limit`` characters without cutting a word in half."""
     cleaned = " ".join(text.split())
     if len(cleaned) <= limit:
         return cleaned
-    return cleaned[: limit - 1].rsplit(" ", 1)[0].rstrip(",.;:") + "…"
+    return cleaned[: limit - 1].rsplit(" ", 1)[0].rstrip(",.;:") + "..."
 
 
 def replace_block(content: str, start: str, end: str, body: str) -> str:
-    """Swap the text between two HTML comment markers.
-
-    Raises when the marker pair is missing so a typo fails the workflow loudly
-    instead of silently appending a duplicate section.
-    """
+    """Swap the text between two HTML comment markers."""
     pattern = re.compile(
         rf"({re.escape(start)})(.*?)(\n?{re.escape(end)})", re.DOTALL
     )
