@@ -33,11 +33,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: salman-cc
         run: |
+          # First run absorbs live GitHub data (counters move with every push).
           python3 .github/scripts/update_activity.py
           python3 .github/scripts/update_repos.py
-          if ! git diff --quiet -- README.md data assets/github-telemetry.svg; then
-            echo "::error::A generator produced a diff on a clean checkout."
-            echo "Run both scripts locally and commit the result."
+          git --no-pager diff -- README.md data assets/github-telemetry.svg > /tmp/gen-run1.diff
+          # Second run must be a no-op: that is what idempotent means.
+          python3 .github/scripts/update_activity.py
+          python3 .github/scripts/update_repos.py
+          git --no-pager diff -- README.md data assets/github-telemetry.svg > /tmp/gen-run2.diff
+          if ! cmp -s /tmp/gen-run1.diff /tmp/gen-run2.diff; then
+            echo "::error::Generators are not idempotent: a second run changed the output again."
             git --no-pager diff --stat -- README.md data assets/github-telemetry.svg
             exit 1
           fi
