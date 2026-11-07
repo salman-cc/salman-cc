@@ -171,11 +171,11 @@ Custom user-scoped KDE Plasma 6.7 Wayland lock-screen shell (`Plasma/Shell`) eng
 <br>
 
 <!-- ACTIVITY:START -->
-- **Create** in [salman-cc/Linux-Scripts](https://github.com/salman-cc/Linux-Scripts): branch `content/utility-scripts`, today
-- **Create** in [salman-cc/cam](https://github.com/salman-cc/cam): branch `fix/http-idle-timeout`, today
-- **Push** in [salman-cc/fedlock](https://github.com/salman-cc/fedlock): updated `main`, today
-- **Pull request** in [salman-cc/cam](https://github.com/salman-cc/cam): opened a pull request, today
-- **Pull request** in [salman-cc/Linux-Scripts](https://github.com/salman-cc/Linux-Scripts): opened a pull request, today
+- **Create** in [salman-cc/cam](https://github.com/salman-cc/cam): branch `fix/au-slot-capacity`, yesterday
+- **Push** in [salman-cc/FPGA-Vision-Processing](https://github.com/salman-cc/FPGA-Vision-Processing): updated `main`, yesterday
+- **Create** in [salman-cc/Linux-Scripts](https://github.com/salman-cc/Linux-Scripts): branch `content/utility-scripts`, yesterday
+- **Push** in [salman-cc/fedlock](https://github.com/salman-cc/fedlock): updated `main`, yesterday
+- **Pull request** in [salman-cc/cam](https://github.com/salman-cc/cam): opened a pull request, yesterday
 <!-- ACTIVITY:END -->
 
 </details>
