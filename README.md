@@ -9,7 +9,7 @@
 
 <br><br>
 
-<a href="https://muhammed-salman-cc.is-a.dev"><img src="assets/link-portfolio.svg" alt="Portfolio: muhammed-salman-cc.is-a.dev" height="32"></a>&nbsp;
+<a href="https://salman-cc.github.io/"><img src="assets/link-portfolio.svg" alt="Portfolio: salman-cc.github.io" height="32"></a>&nbsp;
 <a href="mailto:ccmuhammedsalman@gmail.com"><img src="assets/link-email.svg" alt="Email: ccmuhammedsalman@gmail.com" height="32"></a>&nbsp;
 <a href="mailto:muhammedsalmancc@pg.cusat.ac.in"><img src="assets/link-cusat.svg" alt="Academic Email: muhammedsalmancc@pg.cusat.ac.in" height="32"></a>&nbsp;
 <a href="https://www.linkedin.com/in/muhammed-salman-cc-b7522433b"><img src="assets/link-linkedin.svg" alt="LinkedIn: muhammed-salman-cc" height="32"></a>&nbsp;
@@ -200,7 +200,7 @@ I am open to collaborations on embedded systems, Linux drivers and media pipelin
 
 | Channel | Verified Destination | Purpose |
 | :-- | :-- | :-- |
-| **Portfolio** | [muhammed-salman-cc.is-a.dev](https://muhammed-salman-cc.is-a.dev) | Project case studies, academic background, and hardware notes |
+| **Portfolio** | [salman-cc.github.io](https://salman-cc.github.io/) | Project case studies, academic background, and hardware notes |
 | **Personal Email** | [ccmuhammedsalman@gmail.com](mailto:ccmuhammedsalman@gmail.com) | Engineering opportunities, project collaboration, and general inquiries |
 | **University Email** | [muhammedsalmancc@pg.cusat.ac.in](mailto:muhammedsalmancc@pg.cusat.ac.in) | Academic research, CUSAT coursework, and laboratory correspondence |
 | **LinkedIn** | [linkedin.com/in/muhammed-salman-cc-b7522433b](https://www.linkedin.com/in/muhammed-salman-cc-b7522433b) | Professional network and updates |
