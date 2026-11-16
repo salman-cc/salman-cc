@@ -171,11 +171,11 @@ Custom user-scoped KDE Plasma 6.7 Wayland lock-screen shell (`Plasma/Shell`) eng
 <br>
 
 <!-- ACTIVITY:START -->
-- **Push** in [salman-cc/salman-cc.github.io](https://github.com/salman-cc/salman-cc.github.io): updated `portfolio-site`, 4 days ago
-- **Create** in [salman-cc/salman-cc.github.io](https://github.com/salman-cc/salman-cc.github.io): branch `portfolio-site`, 4 days ago
-- **Create** in [salman-cc/cam](https://github.com/salman-cc/cam): branch `fix/au-slot-capacity`, 9 days ago
-- **Push** in [salman-cc/FPGA-Vision-Processing](https://github.com/salman-cc/FPGA-Vision-Processing): updated `main`, 9 days ago
-- **Create** in [salman-cc/Linux-Scripts](https://github.com/salman-cc/Linux-Scripts): branch `content/utility-scripts`, 9 days ago
+- **Push** in [salman-cc/salman-cc.github.io](https://github.com/salman-cc/salman-cc.github.io): updated `portfolio-site`, 5 days ago
+- **Create** in [salman-cc/salman-cc.github.io](https://github.com/salman-cc/salman-cc.github.io): branch `portfolio-site`, 5 days ago
+- **Create** in [salman-cc/cam](https://github.com/salman-cc/cam): branch `fix/au-slot-capacity`, 10 days ago
+- **Push** in [salman-cc/FPGA-Vision-Processing](https://github.com/salman-cc/FPGA-Vision-Processing): updated `main`, 10 days ago
+- **Create** in [salman-cc/Linux-Scripts](https://github.com/salman-cc/Linux-Scripts): branch `content/utility-scripts`, 10 days ago
 <!-- ACTIVITY:END -->
 
 </details>
