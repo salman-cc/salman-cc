@@ -1,4 +1,4 @@
-<p align="center"><img src="./cards/hero.svg" width="100%" alt="Muhammed Salman, embedded systems and FPGA developer" /></p>
+<p align="center"><img src="./cards/hero.svg" width="100%" alt="Muhammed Salman, electronics engineer" /></p>
 
 <p align="center"><img src="./cards/heatmap.svg" width="100%" alt="Contribution grid for the last year" /></p>
 
