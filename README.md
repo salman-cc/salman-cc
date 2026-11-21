@@ -10,6 +10,8 @@
 <img src="./cards/linux.svg" width="32.5%" alt="Linux: Fedora, KDE Plasma, Git, VS Code, Python" />
 </p>
 
+<p align="center"><img src="./cards/software.svg" width="100%" alt="Software: Radioconda, Git, VS Code" /></p>
+
 <p align="center">
 <a href="https://github.com/salman-cc/cam"><img src="./cards/cam.svg" width="49.5%" alt="cam" /></a>
 <a href="https://github.com/salman-cc/FPGA-Vision-Processing"><img src="./cards/fpga-vision.svg" width="49.5%" alt="FPGA-Vision-Processing" /></a>
