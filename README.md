@@ -1,13 +1,13 @@
-<p align="center"><img src="./cards/hero.svg" width="100%" alt="Muhammed Salman, electronics engineer" /></p>
+<p align="center"><img src="./cards/hero.svg" width="100%" alt="Muhammed Salman, electronics enthusiast" /></p>
 
 <p align="center"><img src="./cards/heatmap.svg" width="100%" alt="Contribution grid for the last year" /></p>
 
 <p align="center"><img src="./cards/activity.svg" width="100%" alt="Contributions per month for the last year" /></p>
 
 <p align="center">
-<img src="./cards/embedded.svg" width="32.5%" alt="Embedded: C, STM32 H7, Arduino, ESP, Raspberry Pi, FreeRTOS" />
-<img src="./cards/fpga.svg" width="32.5%" alt="FPGA: Verilog, VHDL, Vivado, Vitis" />
-<img src="./cards/linux.svg" width="32.5%" alt="Linux: Fedora, KDE Plasma, Git, VS Code, Python" />
+<img src="./cards/embedded.svg" width="32.5%" alt="Embedded: STM32, Raspberry Pi, ARIES, ESP32, Arduino" />
+<img src="./cards/fpga.svg" width="32.5%" alt="FPGA: Verilog, Vivado, Vitis" />
+<img src="./cards/linux.svg" width="32.5%" alt="Linux: Fedora, openSUSE, KDE Plasma" />
 </p>
 
 <p align="center"><img src="./cards/software.svg" width="100%" alt="Software: VS Code, GitHub, Arduino IDE, STM32CubeIDE, STM32CubeMX, Radioconda" /></p>
