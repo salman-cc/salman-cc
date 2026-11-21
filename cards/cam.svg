@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="212" viewBox="0 0 410 212"><style>
+text{font-family:'Segoe UI','Noto Sans','Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.06)}100%{opacity:1;transform:scale(1)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:1;r:4}50%{opacity:.35;r:6.5}}
+@keyframes flow{to{stroke-dashoffset:-40}}
+@keyframes swing{0%{opacity:0;transform:translateY(30px) rotate(-3deg)}60%{transform:translateY(-4px) rotate(.6deg)}100%{opacity:1;transform:none}}
+@keyframes blink{50%{opacity:0}}
+.a{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+.p{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .5s ease-out forwards}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+*{animation:none!important;opacity:1!important;transform:none!important;stroke-dashoffset:0!important}</style><rect width="410" height="212" rx="16" fill="#f6f1e7"/><rect x=".5" y=".5" width="409" height="211" rx="16" fill="none" stroke="#d9d2c3"/><g class="a" style="animation-delay:0.2s"><text x="28" y="48" class="m" style="font-family:'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace;font-size:11px;letter-spacing:2px" fill="#2f5bea">PINNED</text>
+<text x="28" y="82" style="font-family:'Instrument Serif','Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;font-size:30px" fill="#14181f">cam</text>
+<text x="28" y="112" style="font-size:14px" fill="#5b6270">WebRTC camera streaming in C11. Linux or Pi</text><text x="28" y="133" style="font-size:14px" fill="#5b6270">camera to a browser, no cloud account.</text>
+<circle cx="32" cy="168" r="5" fill="#2f5bea"/><text x="46" y="173" class="m" style="font-family:'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace;font-size:12px" fill="#14181f">C</text></g>
+<line x1="28" y1="196" x2="400" y2="196" stroke="#2f5bea" stroke-width="2" stroke-dasharray="6 6" opacity=".6" style="animation:flow 2s linear infinite"/></svg>
