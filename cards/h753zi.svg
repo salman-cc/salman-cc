@@ -12,6 +12,6 @@ text{font-family:'Segoe UI','Noto Sans','Helvetica Neue',Arial,sans-serif} .m{fo
 @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
 </style><rect width="410" height="212" rx="16" fill="#f6f1e7"/><rect x=".5" y=".5" width="409" height="211" rx="16" fill="none" stroke="#d9d2c3"/><g class="a" style="animation-delay:0.6s"><text x="28" y="48" class="m" style="font-family:'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace;font-size:11px;letter-spacing:2px" fill="#2f5bea">PINNED</text>
 <text x="28" y="82" style="font-family:'Instrument Serif','Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;font-size:30px" fill="#14181f">H753ZI_UDP_Test</text>
-<text x="28" y="112" style="font-size:14px" fill="#5b6270">UDP test code for an STM32 H7 board.</text><text x="28" y="133" style="font-size:14px" fill="#5b6270"></text>
+<text x="28" y="112" style="font-size:14px" fill="#5b6270">UDP test code for the STM32 Nucleo H753ZI.</text><text x="28" y="133" style="font-size:14px" fill="#5b6270"></text>
 </g>
 <line x1="28" y1="196" x2="400" y2="196" stroke="#2f5bea" stroke-width="2" stroke-dasharray="6 6" opacity=".6" style="animation:flow 2s linear infinite"/></svg>
