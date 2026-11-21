@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60"><style>
+text{font-family:'Segoe UI','Noto Sans','Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.06)}100%{opacity:1;transform:scale(1)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:1;r:4}50%{opacity:.35;r:6.5}}
+@keyframes flow{to{stroke-dashoffset:-40}}
+@keyframes swing{0%{opacity:0;transform:translateY(30px) rotate(-3deg)}60%{transform:translateY(-4px) rotate(.6deg)}100%{opacity:1;transform:none}}
+@keyframes blink{50%{opacity:0}}
+.a{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
+.p{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .5s ease-out forwards}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
+*{animation:none!important;opacity:1!important;transform:none!important;stroke-dashoffset:0!important}</style><rect width="180" height="60" rx="16" fill="#f6f1e7"/><rect x=".5" y=".5" width="179" height="59" rx="16" fill="none" stroke="#d9d2c3"/><g class="p"><rect x="12" y="10" width="156" height="40" rx="20" fill="#ffffff" stroke="#2f5bea"/><text x="90" y="35" text-anchor="middle" style="font-size:14px;font-weight:600" fill="#14181f">GitHub</text></g></svg>
