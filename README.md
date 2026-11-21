@@ -10,7 +10,7 @@
 <img src="./cards/linux.svg" width="32.5%" alt="Linux: Fedora, KDE Plasma, Git, VS Code, Python" />
 </p>
 
-<p align="center"><img src="./cards/software.svg" width="100%" alt="Software: Radioconda, Git, VS Code" /></p>
+<p align="center"><img src="./cards/software.svg" width="100%" alt="Software: VS Code, GitHub, Arduino IDE, STM32CubeIDE, STM32CubeMX, Radioconda" /></p>
 
 <p align="center">
 <a href="https://github.com/salman-cc/cam"><img src="./cards/cam.svg" width="49.5%" alt="cam" /></a>
