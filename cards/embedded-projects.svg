@@ -10,7 +10,7 @@ text{font-family:'Segoe UI','Noto Sans','Helvetica Neue',Arial,sans-serif} .m{fo
 .a{opacity:0;animation:rise .7s cubic-bezier(.2,.8,.2,1) forwards}
 .p{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .5s ease-out forwards}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}
-*{animation:none!important;opacity:1!important;transform:none!important;stroke-dashoffset:0!important}</style><rect width="410" height="212" rx="16" fill="#f6f1e7"/><rect x=".5" y=".5" width="409" height="211" rx="16" fill="none" stroke="#d9d2c3"/><g class="a" style="animation-delay:0.8s"><text x="28" y="48" class="m" style="font-family:'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace;font-size:11px;letter-spacing:2px" fill="#2f5bea">PINNED</text>
+</style><rect width="410" height="212" rx="16" fill="#f6f1e7"/><rect x=".5" y=".5" width="409" height="211" rx="16" fill="none" stroke="#d9d2c3"/><g class="a" style="animation-delay:0.8s"><text x="28" y="48" class="m" style="font-family:'JetBrains Mono','DejaVu Sans Mono',Consolas,monospace;font-size:11px;letter-spacing:2px" fill="#2f5bea">PINNED</text>
 <text x="28" y="82" style="font-family:'Instrument Serif','Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;font-size:30px" fill="#14181f">Embedded-Projects</text>
 <text x="28" y="112" style="font-size:14px" fill="#5b6270">A collection of embedded projects.</text><text x="28" y="133" style="font-size:14px" fill="#5b6270"></text>
 </g>
