@@ -171,11 +171,11 @@ Custom user-scoped KDE Plasma 6.7 Wayland lock-screen shell (`Plasma/Shell`) eng
 <br>
 
 <!-- ACTIVITY:START -->
-- **Push** in [salman-cc/salman-cc.github.io](https://github.com/salman-cc/salman-cc.github.io): updated `portfolio-site`, 10 days ago
-- **Create** in [salman-cc/salman-cc.github.io](https://github.com/salman-cc/salman-cc.github.io): branch `portfolio-site`, 10 days ago
-- **Create** in [salman-cc/cam](https://github.com/salman-cc/cam): branch `fix/au-slot-capacity`, 15 days ago
-- **Push** in [salman-cc/FPGA-Vision-Processing](https://github.com/salman-cc/FPGA-Vision-Processing): updated `main`, 15 days ago
-- **Create** in [salman-cc/Linux-Scripts](https://github.com/salman-cc/Linux-Scripts): branch `content/utility-scripts`, 15 days ago
+- **Pull request** in [salman-cc/cam](https://github.com/salman-cc/cam): merged a pull request, today
+- **Create** in [salman-cc/FPGA-Lab](https://github.com/salman-cc/FPGA-Lab): branch `lab-reports`, today
+- **Push** in [salman-cc/FPGA-Lab](https://github.com/salman-cc/FPGA-Lab): updated `main`, today
+- **Starred** [salman-cc/FPGA-Lab](https://github.com/salman-cc/FPGA-Lab), today
+- **Pull request** in [salman-cc/FPGA-Lab](https://github.com/salman-cc/FPGA-Lab): merged a pull request, today
 <!-- ACTIVITY:END -->
 
 </details>
